@@ -1,0 +1,110 @@
+/* App.css */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  background: #F5E1D9; /* fondo rosa suave */
+  color: #1a1a1a; /* negro elegante */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background: linear-gradient(90deg, #8b3e5e, #b86b7b); /* gradiente más serio */
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+}
+
+.logo-link img {
+  width: 130px;
+  height: auto;
+  transition: 0.3s;
+}
+
+.logo-link img:hover {
+  transform: scale(1.05);
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.btn-login-nav {
+  background-color: #1a1a1a;
+  color: #F5E1D9;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.btn-login-nav:hover {
+  background-color: #333;
+}
+
+.user-greeting {
+  margin-left: 1rem;
+  font-weight: 500;
+}
+
+.cart-link {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+}
+
+.cart-link:hover {
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 2rem;
+  text-align: center;
+}
+
+.titulo-bienvenida {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #8b3e5e; /* burdeos elegante */
+  margin-bottom: 0.8rem;
+}
+
+.texto-bienvenida {
+  font-size: 1.4rem;
+  color: #333; /* gris oscuro */
+  margin-bottom: 2rem;
+}
+
+.footer {
+  background: linear-gradient(90deg, #8b3e5e, #b86b7b);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
