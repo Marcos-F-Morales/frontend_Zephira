@@ -10,11 +10,15 @@ export default function SobreNosotros() {
         </Typography>
 
         <Typography sx={{ mb: 2, color: "#333", lineHeight: 1.6 }}>
-          En <strong>Tienda Zephira</strong>, nos apasiona vestir a la mujer moderna con estilo y comodidad. Desde nuestros inicios, buscamos ofrecer prendas de alta calidad que reflejen elegancia, sofisticación y la personalidad única de cada mujer.
+          En <strong>Tienda Zephira</strong>, nos apasiona vestir a la mujer moderna con estilo y comodidad. 
+          Desde nuestros inicios, buscamos ofrecer prendas de alta calidad que reflejen elegancia, sofisticación y la 
+          personalidad única de cada mujer.
         </Typography>
 
         <Typography sx={{ mb: 2, color: "#333", lineHeight: 1.6 }}>
-          Nuestra misión es brindarte una experiencia de compra inigualable, con diseños que realzan tu feminidad y se adaptan a cada ocasión, ya sea un evento especial o el día a día. Queremos que cada prenda te haga sentir segura, bella y auténtica.
+          Nuestra misión es brindarte una experiencia de compra inigualable, con diseños que realzan 
+          tu feminidad y se adaptan a cada ocasión, ya sea un evento especial o el día a día. Queremos que cada 
+          prenda te haga sentir segura, bella y auténtica.
         </Typography>
 
         <Typography variant="h5" sx={{ color: "#8b3e5e", mb: 2, fontWeight: 600 }}>
