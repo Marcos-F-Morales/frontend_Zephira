@@ -10,15 +10,11 @@ export default function SobreNosotros() {
         </Typography>
 
         <Typography sx={{ mb: 2, color: "#333", lineHeight: 1.6 }}>
-          En <strong>Tienda Zephira</strong> nos apasiona ofrecer ropa elegante y cómoda para damas.
-            Desde nuestros inicios, hemos buscado proporcionar prendas de alta calidad
-            que reflejen el estilo y la sofisticación de cada mujer en cada momento.
+          En <strong>Tienda Zephira</strong>, nos apasiona vestir a la mujer moderna con estilo y comodidad. Desde nuestros inicios, buscamos ofrecer prendas de alta calidad que reflejen elegancia, sofisticación y la personalidad única de cada mujer.
         </Typography>
 
         <Typography sx={{ mb: 2, color: "#333", lineHeight: 1.6 }}>
-          Nuestra misión es brindarte una experiencia de compra excepcional,
-          con diseños que se adapten a tu estilo personal, tu feminidad
-          y tus necesidades, ya sea para ocasiones especiales o para el día a día.
+          Nuestra misión es brindarte una experiencia de compra inigualable, con diseños que realzan tu feminidad y se adaptan a cada ocasión, ya sea un evento especial o el día a día. Queremos que cada prenda te haga sentir segura, bella y auténtica.
         </Typography>
 
         <Typography variant="h5" sx={{ color: "#8b3e5e", mb: 2, fontWeight: 600 }}>
@@ -26,7 +22,11 @@ export default function SobreNosotros() {
         </Typography>
 
         <List>
-          {["Calidad en cada producto", "Atención personalizada", "Compromiso con nuestras clientas"].map((valor, index) => (
+          {[
+            "Calidad y excelencia en cada prenda",
+            "Atención personalizada y cercana",
+            "Compromiso con tu estilo y bienestar"
+          ].map((valor, index) => (
             <ListItem
               key={index}
               sx={{
