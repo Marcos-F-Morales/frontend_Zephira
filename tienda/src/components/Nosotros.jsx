@@ -6,18 +6,18 @@ export default function SobreNosotros() {
     <Box sx={{ backgroundColor: "#F5E1D9", minHeight: "100vh", py: 6, px: 2 }}>
       <Paper sx={{ maxWidth: 800, mx: "auto", p: 4, borderRadius: 3, boxShadow: 3 }}>
         <Typography variant="h4" sx={{ color: "#8b3e5e", mb: 2, fontWeight: 700 }} textAlign="center">
-          Sobre Nosotras
+          Sobre Nosotros
         </Typography>
 
         <Typography sx={{ mb: 2, color: "#333", lineHeight: 1.6 }}>
-          En <strong>Tienda Zephira</strong> nos apasiona ofrecer calzado elegante y cómodo para damas.
-          Desde nuestros inicios, hemos buscado proporcionar zapatos de alta calidad
-          que reflejen el estilo y la sofisticación de cada mujer en cada paso.
+          En <strong>Tienda Zephira</strong> nos apasiona ofrecer ropa elegante y cómoda para damas.
+            Desde nuestros inicios, hemos buscado proporcionar prendas de alta calidad
+            que reflejen el estilo y la sofisticación de cada mujer en cada momento.
         </Typography>
 
         <Typography sx={{ mb: 2, color: "#333", lineHeight: 1.6 }}>
           Nuestra misión es brindarte una experiencia de compra excepcional,
-          con modelos que se adapten a tu estilo personal, tu feminidad
+          con diseños que se adapten a tu estilo personal, tu feminidad
           y tus necesidades, ya sea para ocasiones especiales o para el día a día.
         </Typography>
 
